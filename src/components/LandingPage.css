@@ -1,0 +1,15 @@
+:root{
+    --text-color: #3B5534;
+    --button-color: #516E53;
+}
+
+body {
+    background-color: #CBCBCC;
+    
+}
+/* 
+.upang-bg{
+    background: lightgray 50% / cover no-repeat;
+    background-blend-mode: plus-darker;
+} */
+
