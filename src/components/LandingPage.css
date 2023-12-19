@@ -1,12 +1,61 @@
 :root{
-    --text-color: #3B5534;
+    --text-color: #354b30;
     --button-color: #516E53;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 body {
     background-color: #CBCBCC;
-    
 }
+
+
+.box {
+    padding: 200px 0 0 100px;
+}
+
+.container-1, 
+.container-2, 
+.container-3, 
+.container-4 {
+    display: flex;
+}
+
+.line-1 .line, 
+.line-2 .line, 
+.line-3 .line, 
+.line-4 .line {
+    height: 200px;
+    width: 4px;
+    background-color: var(--text-color);
+    margin: 30px;
+}
+
+
+.text-1, 
+.text-2, 
+.text-3, 
+.text-4 {
+    color: var(--text-color);
+    padding-bottom: 150px;
+}
+
+
+.text-1 h3, 
+.text-2 h3, 
+.text-3 h3, 
+.text-4 h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+
+
 /* 
 .upang-bg{
     background: lightgray 50% / cover no-repeat;
