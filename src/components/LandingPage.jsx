@@ -10,7 +10,6 @@ const LandingPage = () => {
 
         <div className="box">
 
-
           <div className="container-1">
             <div className="line-1">
               <div className="icon"></div>
@@ -19,6 +18,10 @@ const LandingPage = () => {
             <div className="text-1">
               <h3>Create an Account</h3>
               <p>Create an account to lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+              <div className="buttons">
+                <button className='get-started-btn'>Get Started</button>
+                <button className='sign-up-bt'>Sign Up</button>
+              </div>
             </div>
           </div>
 
@@ -54,7 +57,6 @@ const LandingPage = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
             </div>
           </div>
-
 
         </div>
 

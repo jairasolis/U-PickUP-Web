@@ -24,13 +24,19 @@ body {
     display: flex;
 }
 
-.line-1 .line, 
+.line-1 {
+    height: 300px;
+    width: 4px;
+    background-color: #354b30a1;
+    margin: 30px;
+}
+
 .line-2 .line, 
 .line-3 .line, 
 .line-4 .line {
     height: 200px;
     width: 4px;
-    background-color: var(--text-color);
+    background-color: #354b30a1;
     margin: 30px;
 }
 
@@ -54,7 +60,40 @@ body {
     padding-bottom: 20px;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
 
+.buttons button {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.get-started-btn {
+    background-color: #516E53;
+    color: #D9D9D9;
+    border: none;
+}
+
+.sign-up-bt {
+    border: 1px solid #516E53;
+    background: #D9D9D9;
+    color: #516E53;
+}
+
+.get-started-btn:hover {
+    transform: translateY(-0.2rem);
+    transition: transform 250ms;
+}
+
+.sign-up-bt:hover {
+    transform: translateY(-0.2rem);
+    transition: transform 250ms;
+}
 
 /* 
 .upang-bg{
