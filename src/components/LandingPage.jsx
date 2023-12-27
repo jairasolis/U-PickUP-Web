@@ -50,7 +50,6 @@ const LandingPage = () => {
           <div className="container-4">
             <div className="line-4">
               <div className="icon"></div>
-              <div className="line"></div>
             </div>
             <div className="text-4">
               <h3>Quick Answers Chat</h3>
@@ -58,6 +57,32 @@ const LandingPage = () => {
             </div>
           </div>
 
+        </div>
+
+        <div className="container">
+          <p> U-Pick Up makes it easy to blahblahabbla Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </p>
+          <img src="../public/images/google_play.png" alt="googleplay" />
+        </div>
+
+        <div className="shapes">
+
+          <div className="rectangle">
+            <div className="shape-1"></div>
+            <div className="shape-2"></div>
+            <div className="shape-3"></div>
+          </div>
+
+          <div>
+            <div className="shape-4"></div>
+            <div className="shape-5"></div>
+            <div className="shape-6"></div>
+          </div>
+
+          <div>
+            <div className="shape-7"></div>
+            <div className="shape-8"></div>
+          </div>
+        
         </div>
 
     </div>

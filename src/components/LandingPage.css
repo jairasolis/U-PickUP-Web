@@ -12,6 +12,12 @@ body {
     background-color: #CBCBCC;
 }
 
+/* 
+.upang-bg{
+    background: lightgray 50% / cover no-repeat;
+    background-blend-mode: plus-darker;
+} */
+
 
 .box {
     padding: 200px 0 0 100px;
@@ -40,6 +46,9 @@ body {
     margin: 30px;
 }
 
+.line-4 .icon {
+    margin: 30px;
+}
 
 .text-1, 
 .text-2, 
@@ -58,6 +67,18 @@ body {
     font-style: normal;
     font-weight: 500;
     padding-bottom: 20px;
+}
+
+.container {
+    color: var(--text-color);
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.container img {
+    width: 200px;
+    margin: 30px 0 100px;
 }
 
 .buttons {
@@ -95,9 +116,96 @@ body {
     transition: transform 250ms;
 }
 
-/* 
-.upang-bg{
-    background: lightgray 50% / cover no-repeat;
-    background-blend-mode: plus-darker;
-} */
+/* shapes */
+
+.shape-1,
+.shape-2,
+.shape-3,
+.shape-4,
+.shape-5,
+.shape-6,
+.shape-7,
+.shape-8 {
+    position: absolute;
+}
+
+
+.rectangle {
+    right: -39;
+}
+
+/* rectangles on right */
+
+.shape-1 {
+    width: 671px;
+    height: 374px;
+    transform: rotate(-7deg);
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 0px solid #516E53;
+    background: rgba(81, 110, 83, 0.70);
+}
+
+.shape-2 {
+    width: 487px;
+    height: 255.878px;
+    transform: rotate(11deg);
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 0px solid #516E53;
+    background: rgba(147, 162, 148, 0.65);
+}
+
+.shape-3 {
+    width: 694.941px;
+    height: 359px;
+    transform: rotate(-2deg);
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 0px solid #516E53;
+    background: rgba(81, 110, 83, 0.70);
+}
+
+/* bottom shapes */
+
+.shape-4 {
+    width: 101.738px;
+    height: 596px;
+    flex-shrink: 0;
+    border-radius: 81px;
+    background: rgba(81, 110, 83, 0.70);
+}
+
+.shape-5 {
+    width: 59px;
+    height: 389px;
+    flex-shrink: 0;
+    border-radius: 81px;
+    background: rgba(81, 110, 83, 0.70);
+}
+
+.shape-6 {
+    width: 50px;
+    height: 375px;
+    flex-shrink: 0;
+    border-radius: 81px;
+    background: rgba(81, 110, 83, 0.70);
+}
+
+/* round shapes */
+
+.shape-7 {
+    width: 227px;
+    height: 215px;
+    border-radius: 50%;
+    background: rgba(81, 110, 83, 0.60);
+}
+
+.shape-8 {
+    width: 167px;
+    height: 167px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: rgba(81, 110, 83, 0.60);
+}
 
