@@ -18,7 +18,7 @@ const App = () => {
     <div>
       <Navbar/>
       <LandingPage/>
-      {/* <Signup/> */}
+      <Signup/>
       {/* <SignIn/> */}
       <Footer/>
     </div>

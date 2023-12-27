@@ -12,11 +12,11 @@ const SignIn = () => {
           </div>
             <div className="column-right">
               <div className="form-box">
-                <h2> Sign In </h2>
+                <h2> Sign in to U-Pick Up </h2>
                 <form action="#">
                   <div className="input-field">
-                    <input type="text" className="email" id="email" required />
-                    <label htmlFor="email"> Email </label>
+                    <input type="text" className="idNum" id="idNum" required />
+                    <label htmlFor="email"> ID Number </label>
                   </div>
                   <div className="input-field">
                     <input type="password" className="password" id="password" required />
@@ -24,6 +24,10 @@ const SignIn = () => {
                   </div>
                   <button type="submit" className="btn"> Sign In </button>
                 </form>
+
+                <div className="dhave-account">
+                  <p>Don’t have an account? <span>SIGN UP!</span></p>
+                </div>
               </div>
             </div>
         </div>

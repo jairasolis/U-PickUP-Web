@@ -24,13 +24,16 @@
 
 .wrapper form-box {
     width: 100%;
-    padding: 40px;
+    padding: 20px 40px;
     align-items: center;
 }
 
 .wrapper .form-box h2 {
     text-align: center;
     color: var(--text-color);
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .input-field {
@@ -63,7 +66,7 @@
     border-bottom: 2px solid var(--color);
 }
 
-.input-field .email,
+.input-field .idNum,
 .input-field .password {
     width: 100%;
     height: 100%;
@@ -83,7 +86,7 @@
     color: #f2f2f2;
     background: var(--color);
     border-radius: 10px;
-    margin-top: 10px;
+    margin: 15px;
     transition: .3s;
     border: none;
 }
@@ -93,4 +96,19 @@
     color: var(--text-color);
     background: #CBCBCC;
     border: 1px solid var(--text-color);
+}
+
+.dhave-account {
+    margin-top: 120px;
+    font-size: 12px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.dhave-account span {
+    font-weight: bold;
+}
+
+.dhave-account span:hover {
+    text-decoration: underline;
 }
