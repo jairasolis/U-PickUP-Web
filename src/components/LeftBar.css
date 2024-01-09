@@ -1,0 +1,43 @@
+.leftBar {
+    flex: 2;
+    position: sticky;
+    top: 70px;
+    height: calc(100vh - 70px);
+    border-right: 1px solid #3b55343b;
+}
+
+.leftbar-container {
+    padding: 20px 30px 30px 30px;
+}
+
+.menu {
+    /* width: 200px;
+    height: 100%;
+    border-right: 1px solid rgb(81, 81, 81); */
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu h4 {
+    color: var(--text-color);
+}
+
+hr {
+    margin: 20px 0px;
+    border: none;
+    height: 0.5px;
+    background-color: #3b55343b;
+}
+
+.house, 
+.calendar {
+    display: flex;
+    gap: 12px;
+}
+
+.icon {
+    color: #516E53;
+    margin-top: 3px;
+}

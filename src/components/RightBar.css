@@ -1,0 +1,30 @@
+.rightbar {
+    flex: 3;
+    top: 70px;
+    height: calc(100vh - 70px);
+    /* background-color: rgb(221, 221, 221); */
+    border-left: 1px solid #3b55343b;
+    align-items: center;
+    padding-top: 30px;
+    position: sticky;
+    overflow: scroll;
+
+}
+
+.rightbar::-webkit-scrollbar{
+    display: none;
+}
+
+.note-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.note-box .box {
+    width: 200px;
+    height: 100px;
+    background-color: #516E53;
+    border-radius: 10px;
+}
