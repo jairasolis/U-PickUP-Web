@@ -17,7 +17,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
 .menu h4 {
@@ -34,6 +34,7 @@ hr {
 .house, 
 .calendar {
     display: flex;
+    padding: 10px;
     gap: 12px;
 }
 
@@ -41,3 +42,18 @@ hr {
     color: #516E53;
     margin-top: 3px;
 }
+
+.house:hover,
+.calendar:hover  {
+    background-color: #516E53;
+    border-radius: 10px;
+}
+
+.house:hover .icon,
+.house:hover h4,
+.calendar:hover .icon,
+.calendar:hover h4 {
+    color: #D9D9D9;
+
+}
+
