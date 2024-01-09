@@ -12,34 +12,22 @@ const Home = () => {
           <h4> Filter </h4>
         </div>
         <div className="post">
-
+          <img src="..\public\images\cite.jpg" alt="" />
         </div>
         <div className="post">
-          
+          <img src="..\public\images\cea.jpg" alt="" />
         </div>
         <div className="post">
-          
+          <img src="..\public\images\cas.jpg" alt="" />
         </div>
         <div className="post">
-          
+          <img src="..\public\images\cela.jpg" alt="" />
         </div>
         <div className="post">
-          
+          <img src="..\public\images\chs.jpg" alt="" />
         </div>
         <div className="post">
-          
-        </div>
-        <div className="post">
-          
-        </div>
-        <div className="post">
-          
-        </div>
-        <div className="post">
-          
-        </div>
-        <div className="post">
-          
+          <img src="..\public\images\cma.jpg" alt="" />
         </div>
       </div>
     </div>
